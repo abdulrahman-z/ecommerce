@@ -1,8 +1,12 @@
 .signin {
-  width: 30%;
+  width: 480px;
   display: flex;
   flex-direction: column;
   .title {
     margin: 10px 0;
+  }
+  .formButtons {
+    display: flex;
+    justify-content: space-between;
   }
 }
