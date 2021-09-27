@@ -1,5 +1,5 @@
 .signin {
-  width: 480px;
+  width: 40%;
   display: flex;
   flex-direction: column;
   .title {
@@ -8,5 +8,6 @@
   .formButtons {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
 }
