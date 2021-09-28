@@ -1,6 +1,7 @@
 .sign-container {
   display: flex;
   justify-content: space-between;
-  width: 850px;
+  max-width: 850px;
+  width: auto;
   margin: 0 auto;
 }
