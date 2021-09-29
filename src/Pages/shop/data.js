@@ -8,14 +8,12 @@ const SHOP_DATA = [
         id: 1,
         name: "Brown Brim",
         imageUrl: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
-
         price: 25,
       },
       {
         id: 2,
         name: "Blue Beanie",
         imageUrl: "https://i.ibb.co/ypkgK0X/blue-beanie.png",
-
         price: 18,
       },
       {
@@ -156,8 +154,8 @@ const SHOP_DATA = [
   },
   {
     id: 4,
-    title: "Women",
-    routeName: "women",
+    title: "Womens",
+    routeName: "womens",
     items: [
       {
         id: 23,
@@ -205,8 +203,8 @@ const SHOP_DATA = [
   },
   {
     id: 5,
-    title: "Men",
-    routeName: "men",
+    title: "Mens",
+    routeName: "mens",
     items: [
       {
         id: 30,
