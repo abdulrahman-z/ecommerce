@@ -21,9 +21,6 @@ function Header(props) {
         <Link to="/shop" className="menuItem">
           SHOP
         </Link>
-        <Link to="/contact" className="menuItem">
-          CONTACT
-        </Link>
 
         {currentUser ? (
           <div className="menuItem" onClick={() => auth.signOut()}>

@@ -15,6 +15,7 @@ const Directory = ({ sections }) => {
             title={section.title}
             image={section.imageUrl}
             size={section.size}
+            link={section.linkUrl}
           />
         );
       })}
