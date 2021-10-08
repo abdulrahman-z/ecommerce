@@ -7,5 +7,6 @@
 @media screen and (max-width: 768px) {
   .App {
     padding: 0 20px;
+    width: 100%;
   }
 }

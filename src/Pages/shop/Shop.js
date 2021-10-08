@@ -6,7 +6,6 @@ import Collection from "./collection/collection";
 import "./shop.scss";
 
 const Shop = ({ match }) => {
-  console.log(match);
   return (
     <div>
       <Route exact path={`${match.path}`} component={Overview} />

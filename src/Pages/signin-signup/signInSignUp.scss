@@ -4,4 +4,8 @@
   max-width: 850px;
   width: auto;
   margin: 0 auto;
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
 }

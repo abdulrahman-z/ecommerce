@@ -1,6 +1,9 @@
 .collectionPage {
   display: flex;
   flex-direction: column;
+  @media screen and(max-width:768px) {
+    width: 100%;
+  }
   .title {
     font-size: 38px;
     margin: 0 auto 30px;
@@ -9,5 +12,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
+    @media screen and(max-width:768px) {
+      display: flex;
+      flex-direction: column;
+    }
   }
 }

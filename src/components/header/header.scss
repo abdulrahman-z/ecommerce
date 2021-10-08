@@ -11,6 +11,9 @@
     align-items: center;
     width: 50%;
     justify-content: flex-end;
+    @media screen and (max-width: 768px) {
+      width: auto;
+    }
     .menuItem {
       padding: 0 15px;
       text-decoration: none;
