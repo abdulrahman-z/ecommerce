@@ -21,7 +21,7 @@
   .price {
     width: 23%;
     @media screen and (max-width: 768px) {
-      width: auto;
+      width: 23%;
       font-size: 14px;
       padding-right: 2px;
     }
@@ -42,10 +42,11 @@
   }
 
   .remove {
-    padding-left: 12px;
+    width: 8%;
+
     cursor: pointer;
     @media screen and (max-width: 768px) {
-      padding-left: 24px;
+      width: 8%;
     }
   }
 }

@@ -10,7 +10,7 @@ const reduxDevtools =
 
 const store = createStore(
   mainReducer,
-  compose(applyMiddleware(...middlewares), reduxDevtools)
+  compose(applyMiddleware(...middlewares))
 );
 
 const persistor = persistStore(store);
